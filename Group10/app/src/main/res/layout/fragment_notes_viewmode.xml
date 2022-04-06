@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragments.notesFragments.NotesFragmentViewMode">
+
+    <TextView android:id="@+id/textview_title"
+              android:layout_width="350dp" android:layout_height="50dp"
+              android:layout_marginTop="30dp"
+              android:textSize="25sp"
+              android:text="This is a title"
+              android:textColor="@color/black"
+              android:layout_centerHorizontal="true"
+              android:maxLines="1"/>
+
+    <TextView android:id="@+id/textview_note"
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="10dp"
+              android:padding="0dp"
+              android:scrollbars="vertical"
+              android:text="this is a content bla bla bla bla bla bla bla bla bla"
+              android:maxLines="30"
+              android:minLines="1"
+              android:textSize="20sp"
+              android:autoLink="all"
+              android:lineHeight="25sp"
+              android:layout_below="@id/textview_title"/>
+
+</RelativeLayout>

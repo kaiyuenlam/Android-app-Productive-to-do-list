@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragments.notesFragments.notesAddNewNote">
+
+    <TextView android:id="@+id/backButton"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Back"
+              android:textSize="20sp"
+              android:layout_marginTop="30dp"
+              android:layout_marginLeft="20dp"
+              android:drawableLeft="@drawable/ic_baseline_arrow_back"/>
+
+    <TextView android:id="@+id/AddNewNotes"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="+"
+              android:gravity="center"
+              android:textSize="45sp"
+              android:layout_marginTop="18dp"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="30dp"/>
+
+    <EditText android:id="@+id/text_title"
+              android:layout_width="350dp" android:layout_height="50dp"
+              android:layout_below="@id/AddNewNotes"
+              android:hint="Note Title"
+              android:layout_marginTop="20dp"
+              android:textColor="@color/black"
+              android:layout_centerHorizontal="true"
+              android:maxLines="1"/>
+
+    <EditText android:id="@+id/text_body"
+              android:layout_width="350dp" android:layout_height="wrap_content"
+              android:layout_below="@id/text_title"
+              android:layout_marginTop="30dp"
+              android:padding="10dp"
+              android:layout_centerHorizontal="true"
+              android:inputType="textMultiLine"
+              android:maxLines="30"
+              android:minLines="1"
+              android:hint="Note Content"
+              android:textColor="@color/black"/>
+
+</RelativeLayout>

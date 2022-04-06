@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="130dp" xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+    <EditText android:id="@+id/edit_front"
+              android:layout_width="250dp"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:maxLines="1"
+              android:maxLength="23"
+              android:hint="Flip-Card Front"/>
+
+    <EditText android:id="@+id/edit_back"
+              android:layout_width="250dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/edit_front"
+              android:layout_alignParentRight="true"
+              android:maxLines="1"
+              android:maxLength="23"
+              android:hint="Flip-Card Back"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/counter"
+              android:text="1"
+              android:textStyle="bold"
+              android:textSize="60sp"
+              android:textColor="@color/black"
+              android:layout_alignParentLeft="true"
+              android:layout_marginLeft="30dp"/>
+
+    <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            app:dividerColor="@color/lightBlue"/>
+
+</RelativeLayout>

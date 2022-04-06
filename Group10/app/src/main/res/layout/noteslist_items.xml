@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:background="#AAAAAAAA"
+                                   app:cardCornerRadius="20dp"
+                                   android:layout_marginTop="5dp"
+                                   android:layout_marginBottom="5dp"
+                                   android:layout_marginLeft="15dp"
+                                   android:layout_marginRight="15dp">
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/favorNote"
+               android:src="@drawable/ic_baseline_star_yellow"
+               android:layout_gravity="center_vertical"/>
+
+
+    <TextView android:id="@+id/noteItems_title"
+            android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="This is an sample of notes titlesssssssss"
+              android:ellipsize="end"
+              android:textSize="20sp"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:layout_marginStart="25dp"
+              android:layout_marginEnd="20dp"
+              android:maxLines="1"
+              android:maxLength="38"/>
+
+</androidx.cardview.widget.CardView>

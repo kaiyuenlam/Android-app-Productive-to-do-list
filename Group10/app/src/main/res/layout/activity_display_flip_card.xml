@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FlipCardPacket.DisplayFc.DisplayFlipCard">
+
+    <TextView android:id="@+id/exitFCView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Back"
+              android:gravity="center_vertical"
+              android:textSize="20sp"
+              android:textColor="@color/black"
+              android:layout_marginTop="30dp"
+              android:layout_marginLeft="20dp"
+              android:drawableLeft="@drawable/ic_baseline_arrow_back"/>
+
+    <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                 android:id="@+id/displayFC"
+                 android:src="@drawable/ic_baseline_add_box_24"
+                 android:background="@drawable/ic_baseline_add_box_24"
+                 android:layout_marginTop="35dp"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="30dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/viewFC_ListContainer"
+            android:layout_below="@id/exitFCView"
+            android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
