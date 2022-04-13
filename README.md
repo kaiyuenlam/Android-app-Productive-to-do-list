@@ -1,7 +1,7 @@
 
 
 # Android-app-Productive-to-do-list, notes and flip card
-Assignment of building a simple android app
+Assignment of building a simple android app （NOT Completed yet)
 
 <img src="https://user-images.githubusercontent.com/97234470/162037672-b2b2c2a7-671d-4050-bee2-838e6647befc.png" width="620" height="500">
 <img src="https://user-images.githubusercontent.com/97234470/162037677-70ce614b-368b-4f33-92c8-35b017cac463.png" width="620" height="500">
