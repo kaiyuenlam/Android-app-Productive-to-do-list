@@ -28,18 +28,6 @@ Assignment of building a simple android app （NOT Completed yet)
 
 <img src="https://user-images.githubusercontent.com/97234470/162037702-d6e3afa9-f64b-4493-9812-698b07082f76.png" width="620" height="500">
 
-References
+References  
+[circular progress bar] (https://github.com/MRezaNasirloo/CircularProgressBar "link")  
 
-add ActionBarDrawerToggle in activity without using toolbar
-How to Create Drawer Menu in Android Studio
-circular progress bar
-Recycler view on click listener
-SQLite tutorial
-How to update RecyclerView Adapter Data
-How to pass an object from one activity to another on Android
-startActivityForResult()替代方案Activity Result Api
-Shared ViewModel in Android
-How to Share Data between Fragment and Activity || Share Data using ViewModel || FoxAndroid || 2021
-Saving ArrayList in SQLite database in Android
-How do you save/store objects in SharedPreferences on Android?
-Flip Card animation in Android Studio
