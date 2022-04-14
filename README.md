@@ -29,5 +29,5 @@ Assignment of building a simple android app （NOT Completed yet)
 <img src="https://user-images.githubusercontent.com/97234470/162037702-d6e3afa9-f64b-4493-9812-698b07082f76.png" width="620" height="500">
 
 References  
-[circular progress bar] (https://github.com/MRezaNasirloo/CircularProgressBar "link")  
+[circular progress bar](https://github.com/MRezaNasirloo/CircularProgressBar)  
 
